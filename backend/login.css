@@ -11,14 +11,15 @@ body {
     width: 100%;
 }
 
-.Sign_up_form {
+
+.Login_form {
+    height: 500px;
     width: 400px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
     background: whitesmoke;
     padding: 20px;
-    margin: 25% auto 0;
+    margin: 10% auto 0;
     text-align: center;
-    margin-left: 80%;
     border-radius: 15px;
 }
 
@@ -26,15 +27,28 @@ body {
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
-    width: 250px;
+    width: 20px solid;
     outline: black;
+    margin-left: 0px;
+    margin-top: 10%;
 }
 
-.sign-btn {
+.main-input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 20px solid;
+    outline: black;
+    margin-left: 0px;
+    margin-top: 20%;
+}
+
+.Login-btn {
+    width: 50%;
     border-radius: 10px;
     margin-bottom: 5px;
     background-color: rgb(94, 193, 226);
-    width: 250px;
+    margin-top: 20%;
 }
 
 button {
@@ -46,24 +60,4 @@ button {
     cursor: pointer;
 }
 
-.fname {
-    border-radius: 20px;
-    width: 110px;
-    padding: 10px;
-    margin-left: -50px;
-    /* margin: 5px; */
-    margin-top: 5px;
-}
 
-.lname {
-    border-radius: 20px;
-    width: 110px;
-    padding: 10px;
-    margin-right: -50px;
-    /* margin: 5px; */
-}
-
-.bg {
-    width: 50%;
-    
-}
