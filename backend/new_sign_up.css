@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-image: linear-gradient(black, black); */
+    background: hsla(192, 80%, 51%, 1);
+    background: linear-gradient(90deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
+}
+
+* {
+    width: 100%;
+}
+
+.id-login {
+    height: 300px;
+    width: 400px;
+    border: 2px solid white;
+    margin-top: 12%;
+    margin-bottom: 20px;
+    margin-left: 70%;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.id-login #name {
+    width: 240px;
+    height: 40px;
+    border: 2px solid white;
+    margin-top: 11px;
+    margin-left: 80px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(60, 55, 55);
+    border-color: black;
+}
+
+.id-login #name::placeholder {
+    color: aliceblue;
+}
