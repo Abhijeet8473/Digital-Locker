@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: linear-gradient(black, black);
+    /* background-image: linear-gradient(black, black); */
+    background: hsla(192, 80%, 51%, 1);
+    background: linear-gradient(90deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
 }
 
 * {
@@ -94,44 +96,57 @@ login
 .id-login {
     height: 300px;
     width: 400px;
-    border: 2px solid white;
-    margin-top: 12%;
+    /* border: 2px solid white; */
+    margin-top: -2%;
     margin-bottom: 20px;
-    margin-left: 70%;
+    margin-left: 65%;
     border-radius: 20px;
     text-decoration: none;
     display: inline-block;
+    background-color: whitesmoke;
+}
+
+.id-login #acc {
+    width: 240px;
+    height: 40px;
+    border: 2px solid white;
+    margin-top: 60px;
+    margin-left: 80px;
+    border-radius: 10px;
+    color: #fff;
+    /* background-color: rgb(60, 55, 55); */
+    border-color: black;
 }
 
 .id-login #name {
     width: 240px;
     height: 40px;
     border: 2px solid white;
-    margin-top: 11px;
+    margin-top: 20px;
     margin-left: 80px;
     border-radius: 10px;
     color: #fff;
-    background-color: rgb(60, 55, 55);
+    /* background-color: rgb(60, 55, 55); */
     border-color: black;
 }
 
 .id-login #name::placeholder {
-    color: aliceblue;
+    color: black;
 }
 
 .submit {
     width: 240px;
     height: 40px;
     border: 2px solid white;
-    margin-top: 11px;
+    margin-top: 24px;
     margin-left: 80px;
     border-radius: 10px;
-    color: #fff;
-    background-color: rgb(60, 55, 55);
+    color: black;
+    /* background-color: rgb(60, 55, 55); */
     border-color: black;
 }
 
 .submit:hover {
-    background-color: white;
-    color: rgb(60, 55, 55);
+    background-color: black;
+    color: whitesmoke;
 }
