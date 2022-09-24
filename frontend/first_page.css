@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: linear-gradient(black, black);
+    /* background-image: linear-gradient(black, black); */
+    background: hsla(192, 80%, 51%, 1);
+    background: linear-gradient(90deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
 }
 
 * {
@@ -34,7 +36,7 @@ nav ul {
     float: right;
     margin-top: 20px;
     display: flex;
-    padding-left: 620px;
+    padding-left: 630px;
 }
 
 nav ul li {
@@ -45,7 +47,7 @@ nav ul li {
     color: #fff;
     font-size: large;
     display: flex;
-    padding-left: 10px;
+    padding-left: 13px;
 }
 
 .navbar-side a {
@@ -59,12 +61,12 @@ nav ul li {
     background-color: white;
     color: black;
     border-radius: 10px;
-    max-width: 70%;
-    margin-top: -1px;
+    max-width: 80%;
+    margin-top: -2px;
 }
 
 #hi {
-    margin-left: -30%;
+    margin-left: -40%;
 }
 
 
