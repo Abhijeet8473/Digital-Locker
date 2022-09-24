@@ -23,7 +23,7 @@ body {
 }
 
 .input-box {
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 10px;
     margin: 10px;
     width: 250px;
@@ -31,7 +31,7 @@ body {
 }
 
 .sign-btn {
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 5px;
     background-color: rgb(94, 193, 226);
     width: 250px;
@@ -47,17 +47,18 @@ button {
 }
 
 .fname {
-    border-radius: 20px;
-    width: 110px;
+    border-radius: 15px;
+    width: 120px;
     padding: 10px;
-    margin-left: -50px;
+    margin-left: -53px;
     /* margin: 5px; */
     margin-top: 5px;
+    
 }
 
 .lname {
-    border-radius: 20px;
-    width: 110px;
+    border-radius: 15px;
+    width: 120px;
     padding: 10px;
     margin-right: -50px;
     /* margin: 5px; */
