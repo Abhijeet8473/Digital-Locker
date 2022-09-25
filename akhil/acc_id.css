@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-image: linear-gradient(black, black); */
+    background: hsla(192, 80%, 51%, 1);
+    background: linear-gradient(90deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
+}
+
+* {
+    width: 100%;
+}
+
+.Login_form {
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: whitesmoke;
+    padding: 20px;
+    margin: 10% auto 0;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 20px solid;
+    outline: black;
+    margin-left: 0px;
+    margin-top: 5%;
+}
+
+.main-input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 20px solid;
+    outline: black;
+    margin-left: 0px;
+    margin-top: 10%;
+}
+
+.Login-btn {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(94, 193, 226);
+    margin-top: 10%;
+}
+
+button {
+    color: white;
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.get-here p {
+    border: 1px solid;
+    width: 200px;
+    height: 30px;
+    margin-left: 23%;
+}

@@ -1,5 +1,5 @@
 let btn = document.querySelector('.btn');
-let output = document.querySelector('#abc');
+let output = document.querySelector('p');
 
 function getRandomNumber(min, max) {
     let step1 = max - min + 1;
@@ -20,7 +20,7 @@ function createArrayOfNumbers(start, end) {
 };
 
 
-let numbersArray = createArrayOfNumbers(1, 10);
+let numbersArray = createArrayOfNumbers(1000000, 9999999);
 // console.log(numbersArray);
 
 btn.addEventListener('click', () => {
